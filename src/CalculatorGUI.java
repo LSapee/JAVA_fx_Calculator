@@ -75,7 +75,7 @@ public class CalculatorGUI extends Application {
 				int first = Integer.parseInt(f.getText().trim());
 				int second = Integer.parseInt(s.getText().trim());
 				
-				int div = first / second;
+				float div = (float)(first) / (float)(second);
 				
 				resultLb.setText("div : " + div);
 				}catch(Exception e2) {
