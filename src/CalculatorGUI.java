@@ -26,6 +26,17 @@ public class CalculatorGUI extends Application {
 		Button mulbt = new Button("mul");
 		Button divbt = new Button("div");
 		
+		Button num1 = new Button("1");
+		Button num2 = new Button("2");
+		Button num3 = new Button("3");
+		Button num4 = new Button("4");
+		Button num5 = new Button("5");
+		Button num6 = new Button("6");
+		Button num7 = new Button("7");
+		Button num8 = new Button("8");
+		Button num9 = new Button("9");
+		Button num0 = new Button("0");
+		
 		Label resultLb = new Label("Result");
 		
 		HBox hb = new HBox(f,s);
