@@ -205,7 +205,7 @@ public class Calculator extends Application {
 		vb.setSpacing(2);
 		vb.setPadding(new Insets(2));
 		
-		Scene scene = new Scene(vb,500,500);
+		Scene scene = new Scene(vb,200,200);
 		
 		primaryStage.setScene(scene);
 		primaryStage.show();
